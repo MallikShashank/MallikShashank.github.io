@@ -1,0 +1,6 @@
+@import '../../shared.module.scss';
+
+.internships {
+    background-color: #f0f0f0;
+    @extend .section;
+}

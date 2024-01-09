@@ -1,0 +1,11 @@
+// src/theme.scss
+$primary-color: #4a90e2;   // Example primary color
+$secondary-color: #333;    // Example secondary color
+$font-stack: 'Arial', sans-serif;
+
+body {
+    font-family: $font-stack;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

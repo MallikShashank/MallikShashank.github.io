@@ -1,0 +1,6 @@
+@import '../../shared.module.scss';
+
+.coursework {
+    background-color: #e0f7fa;
+    @extend .section;
+}

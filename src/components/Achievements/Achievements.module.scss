@@ -1,0 +1,6 @@
+@import '../../shared.module.scss';
+
+.achievements {
+    background-color: #ede7f6;
+    @extend .section;
+}

@@ -1,0 +1,14 @@
+@import '../../shared.module.scss';
+
+.projects {
+    background-color: #fff3e0;
+    @extend .section;
+}
+
+.projects a {
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.05); // Slightly increase size on hover
+    }
+}

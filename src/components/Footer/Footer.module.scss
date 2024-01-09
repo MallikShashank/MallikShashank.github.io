@@ -1,0 +1,18 @@
+@import '../../shared.module.scss';
+
+.footer {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.footer a {
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: #ffee58; // A bright color for hover 
+    }
+}

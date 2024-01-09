@@ -1,0 +1,40 @@
+@keyframes textAnimation {
+    0%, 100% { width: 0; opacity: 0; }
+    10%, 25% { width: 100%; opacity: 1; } // First text appears
+    30%, 50% { width: 100%; opacity: 1; } // Second text appears
+    55%, 75% { width: 100%; opacity: 1; } // Third text appears
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
+.typing {
+    display: inline-block;
+    overflow: hidden;
+    border-right: 8px solid;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 8px;
+    animation: blink 1s step-end infinite;
+}
+
+.typingText {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    opacity: 0; // Initial state is invisible
+    animation: textAnimation 10s steps(60, end) infinite;
+}
+
+.typingText:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.typingText:nth-child(2) {
+    animation-delay: 6s;
+}
+
+.typingText:nth-child(3) {
+    animation-delay: 12s;
+}

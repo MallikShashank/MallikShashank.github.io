@@ -1,0 +1,15 @@
+@import '../../shared.module.scss';
+
+.experience {
+    background-color: #e8eaf6;
+    @extend .section;
+}
+
+.experience li {
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+        background-color: #e7ebf0;
+        color: #333;
+    }
+}
